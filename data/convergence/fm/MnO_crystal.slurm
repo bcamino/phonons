@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --nodes=40
+#SBATCH --nodes=16
 #SBATCH --ntasks-per-node=32
 #SBATCH --cpus-per-task=1
 #SBATCH --time=24:00:00
@@ -18,6 +18,16 @@ module load crystal
 export FI_MR_CACHE_MAX_COUNT=0
 
 # Run calculations
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm MnO_super2_phonons MnO_super2_phonons &
+wait
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys MnO_super2_phonons &
+wait
+
+timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm MnO_super3_phonons MnO_super3_phonons &
+wait
+/work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys MnO_super3_phonons &
+wait
+
 timeout 2876m /work/e05/e05/bcamino/runCRYSTAL/Pcry_slurm MnO_super4_phonons MnO_super4_phonons &
 wait
 /work/e05/e05/bcamino/runCRYSTAL/post_proc_slurm crys MnO_super4_phonons &
