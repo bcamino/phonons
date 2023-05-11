@@ -1,5 +1,6 @@
 def get_delta_angle(structure, range_angle, conv_matrix=[]):
-    
+    # Return a list of delta angles from a range of %
+
     import numpy as np
     from pymatgen.core.structure import Structure
 
@@ -17,14 +18,14 @@ def get_delta_angle(structure, range_angle, conv_matrix=[]):
     return delta_angle
 
 def get_delta_lattice(structure, range_lattice, conv_matrix=[]):
-    
+    # Return a list of delta lattice from a range of %
+
     import numpy as np
     from pymatgen.core.structure import Structure
 
     if len(conv_matrix) == 0:
         conv_matrix = np.identity(3)
 
-    conv_matrix_inv = np.linalg.inv(conv_matrix)
     lattice = np.matmul(conv_matrix,structure.lattice.matrix)
 
     lattice = Structure(lattice,[],[]).lattice.a
@@ -36,7 +37,7 @@ def get_delta_lattice(structure, range_lattice, conv_matrix=[]):
 
     return delta_lattice
 
-def set_angle(structure, delta_angle, conv_matrix):
+def set_angle(structure, delta_angle, conv_matrix=[]):
     # structure: primitive cell structure
     # delta_angle: delta on the conventional cell angle
     # conv_matrix: conversion matrix from the primitive to conventional cell
@@ -47,8 +48,6 @@ def set_angle(structure, delta_angle, conv_matrix):
     to_rad = np.pi/180
     to_deg = 180/np.pi
 
-
-    
 
     if len(conv_matrix) = 0:
         conv_matrix = np.identity(3)
@@ -133,7 +132,7 @@ def set_cell(structure, delta_cell, conv_matrix=[]):
     import numpy as np
     from pymatgen.core.structure import Structure
 
-    if len(conv_matrix) == []:
+    if len(conv_matrix) == 0:
         conv_matrix = np.identity(3)
 
     conv_matrix_inv = np.linalg.inv(conv_matrix)
