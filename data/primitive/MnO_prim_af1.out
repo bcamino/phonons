@@ -1,0 +1,186 @@
+date Wed 10 May 2023 10:08:56 BST
+hostname MacBook-Pro-8.local
+system Darwin MacBook-Pro-8.local 21.6.0 Darwin Kernel Version 21.6.0: Mon Aug 22 20:20:05 PDT 2022; root:xnu-8020.140.49~2/RELEASE_ARM64_T8101 arm64
+user brunocamino
+output data in /Users/brunocamino/Desktop/UCL/crystal/phonons/data/primitive/MnO_prim_af1.out
+crystal executable in /Users/brunocamino/crystal
+input data in /Users/brunocamino/Desktop/UCL/crystal/phonons/data/primitive/MnO_prim_af1.d12
+temporary directory /Users/brunocamino/crystal/tmp
+MnO
+CRYSTAL
+0 0 0
+123
+3.1084131 4.3959600
+4
+25  0.00  0.00  0.00
+25  0.50  0.50  0.50
+8  0.50  0.50  0.00
+8  0.00  0.00  0.50
+EXTPRT
+TESTGEOM
+END
+
+         
+ *******************************************************************************
+ *                                                                             *
+ *                               CRYSTAL17                                     *
+ *                      public : 1.0.1 - Feb 1st, 2017                         *
+ *                       HTTP://WWW.CRYSTAL.UNITO.IT                           *
+ *                                                                             *
+ *                              MAIN AUTHORS                                   *
+ *                                                                             *
+ *  R. DOVESI(1,11), V.R. SAUNDERS(2), C. ROETTI(1,11), R. ORLANDO(1,11),      *
+ *  C.M. ZICOVICH-WILSON(1,3), F. PASCALE(4), B. CIVALLERI(1,11),              *
+ *  K. DOLL(5), N.M. HARRISON(2,6), I.J. BUSH(7), Ph. D'ARCO(8),               *
+ *  M. LLUNELL(9), M. CAUSA'(10), Y. NOEL(8), L. MASCHIO(1,11), A. ERBA(1,11)  *
+ *  M. RE'RAT(14), S. CASASSA(1,11)                                            *
+ *                                                                             *
+ *        CONTRIBUTIONS TO THE CODE HAVE ALSO BEEN GIVEN BY                    *
+ *                                                                             *
+ *  M. FERRABONE(1,11), M. DE LA PIERRE(1,11), M. FERRERO(1,11),               *
+ *  J. BAIMA(1,11), E. ALBANESE(1,11), M.F. PEINTINGER(12), R. BAST(13),       *
+ *  B. KIRTMAN(15), V. LACIVITA(1,11), R. DEMICHELIS(1,16)                     *
+ *  G. BRANDEBURG(17), S. SALUSTRO(1,11), G. SANSONE(1,11)                     *
+ *  M.T. RUGGIERO(18)                                                          *
+ *                                                                             *
+ * (1) THEORETICAL CHEMISTRY GROUP - UNIVERSITA' DI TORINO - TORINO (ITALY)    *
+
+ * (2) COMPUTATIONAL SCIENCE & ENGINEERING DEPARTMENT - STFC DARESBURY (UK)    *
+ * (3) UNIVERSIDAD AUTONOMA DEL ESTADO DE MORELOS - CUERNAVACA (MEXICO)        *
+ * (4) UNIVERSITE' DE LORRAINE - NANCY (FRANCE)                                *
+ * (5) UNIVERSITAET STUTTGART- STUTTGART (GERMANY)                             *
+ * (6) IMPERIAL COLLEGE - LONDON (UK)                                          *
+ * (7) OXFORD E-RESEARCH CENTRE - OXFORD (UK)                                  *
+ * (8) UPMC - SORBONNE UNIVERSITES - PARIS (FRANCE)                            *
+ * (9) UNIVERSIDAD DE BARCELONA - BARCELONA (SPAIN)                            *
+ *(10) UNIVERSITA' DI NAPOLI "FEDERICO II" - NAPOLI (ITALY)                    *
+ *(11) NIS - NANOSTRUCTURED INTERFACES AND SURFACES - TORINO (ITALY)           *
+ *(12) MPI FUER CHEMISCHE ENERGIEKONVERSION - MUELHEIM AN DER RUHR (GERMANY)   *
+ *(13) UNIVERSITY OF TROMSO - TROMSO (NORWAY)                                  *
+ *(14) UNIVERSITE' DE PAU ET DES PAYS DE L'ADOUR - PAU (FRANCE)                *
+ *(15) UNIVERSITY OF CALIFORNIA SANTA BARBARA - SANTA BARBARA (USA)            *
+ *(16) CURTIN UNIVERSITY - PERTH (AUSTRALIA)                                   *
+ *(17) UNIVERSITY COLLEGE LONDON - LONDON (UK)                                 *
+ *(18) CAMBRIDGE UNIVERSITY - CAMBRIDGE (UK)                                   *
+ *                                                                             *
+ *******************************************************************************
+ EEEEEEEEEE STARTING  DATE 10 05 2023 TIME 10:08:56.1
+ MnO                                                                             
+
+ CRYSTAL CALCULATION
+ (INPUT ACCORDING TO THE INTERNATIONAL TABLES FOR X-RAY CRYSTALLOGRAPHY)
+ CRYSTAL FAMILY                       :  TETRAGONAL  
+ CRYSTAL CLASS  (GROTH - 1921)        :  DITETRAGONAL DIPYRAMIDAL             
+
+ SPACE GROUP (CENTROSYMMETRIC)        :  P 4/M M M       
+
+ LATTICE PARAMETERS  (ANGSTROMS AND DEGREES) - CONVENTIONAL CELL
+        A           B           C        ALPHA        BETA       GAMMA
+     3.10841     3.10841     4.39596    90.00000    90.00000    90.00000
+
+
+ NUMBER OF IRREDUCIBLE ATOMS IN THE CONVENTIONAL CELL:    4
+
+ INPUT COORDINATES
+
+ ATOM AT. N.              COORDINATES
+   1  25     0.000000000000E+00  0.000000000000E+00  0.000000000000E+00
+   2  25     5.000000000000E-01  5.000000000000E-01  5.000000000000E-01
+   3   8     5.000000000000E-01  5.000000000000E-01  0.000000000000E+00
+   4   8     0.000000000000E+00  0.000000000000E+00  5.000000000000E-01
+
+ *******************************************************************************
+
+ << INFORMATION >>: FROM NOW ON, ALL COORDINATES REFER TO THE PRIMITIVE CELL
+
+ *******************************************************************************
+
+ LATTICE PARAMETERS  (ANGSTROMS AND DEGREES) - PRIMITIVE CELL
+       A          B          C        ALPHA      BETA     GAMMA        VOLUME
+    3.10841    3.10841    4.39596    90.00000  90.00000  90.00000     42.474785
+
+ COORDINATES OF THE EQUIVALENT ATOMS (FRACTIONAL UNITS)
+
+ N. ATOM EQUIV AT. N.          X                  Y                  Z
+
+   1   1   1   25 MN    0.00000000000E+00  0.00000000000E+00  0.00000000000E+00
+
+   2   2   1   25 MN   -5.00000000000E-01 -5.00000000000E-01 -5.00000000000E-01
+
+   3   3   1    8 O    -5.00000000000E-01 -5.00000000000E-01  0.00000000000E+00
+
+   4   4   1    8 O     0.00000000000E+00  0.00000000000E+00 -5.00000000000E-01
+
+ NUMBER OF SYMMETRY OPERATORS         :   16
+ *******************************************************************************
+ * GEOMETRY EDITING - INPUT COORDINATES ARE GIVEN IN ANGSTROM         
+ *******************************************************************************
+
+ GEOMETRY NOW FULLY CONSISTENT WITH THE GROUP
+
+ GCALCO - MAX INDICES DIRECT LATTICE VECTOR    16    16    12
+ NO.OF VECTORS CREATED 6999 STARS  393 RMAX    78.36959 BOHR
+
+ GEOMETRY FOR WAVE FUNCTION - DIMENSIONALITY OF THE SYSTEM    3
+ (NON PERIODIC DIRECTION: LATTICE PARAMETER FORMALLY SET TO 500)
+ *******************************************************************************
+ LATTICE PARAMETERS (ANGSTROMS AND DEGREES) - BOHR = 0.5291772083 ANGSTROM
+ PRIMITIVE CELL - CENTRING CODE 1/0 VOLUME=    42.474785 - DENSITY  5.546 g/cm^3
+         A              B              C           ALPHA      BETA       GAMMA 
+     3.10841310     3.10841310     4.39596000    90.000000  90.000000  90.000000
+ *******************************************************************************
+ ATOMS IN THE ASYMMETRIC UNIT    4 - ATOMS IN THE UNIT CELL:    4
+     ATOM                 X/A                 Y/B                 Z/C    
+ *******************************************************************************
+      1 T  25 MN    0.000000000000E+00  0.000000000000E+00  0.000000000000E+00
+      2 T  25 MN   -5.000000000000E-01 -5.000000000000E-01 -5.000000000000E-01
+      3 T   8 O    -5.000000000000E-01 -5.000000000000E-01  0.000000000000E+00
+      4 T   8 O     0.000000000000E+00  0.000000000000E+00 -5.000000000000E-01
+
+ T = ATOM BELONGING TO THE ASYMMETRIC UNIT
+
+ ****   16 SYMMOPS - TRANSLATORS IN FRACTIONAL UNITS
+ **** MATRICES AND TRANSLATORS IN THE CRYSTALLOGRAPHIC REFERENCE FRAME
+   V INV                    ROTATION MATRICES                   TRANSLATORS
+   1   1  1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00
+   2   2 -1.00  0.00  0.00  0.00 -1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00
+   3   3  1.00  0.00  0.00  0.00 -1.00  0.00  0.00  0.00 -1.00  0.00  0.00  0.00
+   4   4 -1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00 -1.00  0.00  0.00  0.00
+   5   5  0.00 -1.00  0.00 -1.00  0.00  0.00  0.00  0.00 -1.00  0.00  0.00  0.00
+   6   6  0.00  1.00  0.00  1.00  0.00  0.00  0.00  0.00 -1.00  0.00  0.00  0.00
+   7   8  0.00  1.00  0.00 -1.00  0.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00
+   8   7  0.00 -1.00  0.00  1.00  0.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00
+   9   9 -1.00  0.00  0.00  0.00 -1.00  0.00  0.00  0.00 -1.00  0.00  0.00  0.00
+  10  10  1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00 -1.00  0.00  0.00  0.00
+  11  11 -1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00
+  12  12  1.00  0.00  0.00  0.00 -1.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00
+  13  13  0.00  1.00  0.00  1.00  0.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00
+  14  14  0.00 -1.00  0.00 -1.00  0.00  0.00  0.00  0.00  1.00  0.00  0.00  0.00
+  15  16  0.00 -1.00  0.00  1.00  0.00  0.00  0.00  0.00 -1.00  0.00  0.00  0.00
+  16  15  0.00  1.00  0.00 -1.00  0.00  0.00  0.00  0.00 -1.00  0.00  0.00  0.00
+
+ DIRECT LATTICE VECTORS CARTESIAN COMPONENTS (ANGSTROM)
+          X                    Y                    Z
+   0.310841310000E+01   0.000000000000E+00   0.000000000000E+00
+   0.000000000000E+00   0.310841310000E+01   0.000000000000E+00
+   0.000000000000E+00   0.000000000000E+00   0.439596000000E+01
+
+
+ CARTESIAN COORDINATES - PRIMITIVE CELL
+ *******************************************************************************
+ *      ATOM          X(ANGSTROM)         Y(ANGSTROM)         Z(ANGSTROM)
+ *******************************************************************************
+    1    25 MN    0.000000000000E+00  0.000000000000E+00  0.000000000000E+00
+    2    25 MN    1.554206550000E+00  1.554206550000E+00  2.197980000000E+00
+    3     8 O     1.554206550000E+00  1.554206550000E+00  0.000000000000E+00
+    4     8 O     0.000000000000E+00  0.000000000000E+00  2.197980000000E+00
+ WARNING **** CRYSTA **** TESTGEOM  DIRECTIVE - GEOMETRY EDITING COMPLETE
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT END         TELAPSE        0.02 TCPU        0.01
+ EEEEEEEEEE TERMINATION  DATE 10 05 2023 TIME 10:08:56.2
+Wed 10 May 2023 10:08:56 BST
+Contents of temporary directory:
+total 16
+-rw-r--r--  1 brunocamino  admin  4387 10 May 10:08 fort.34
+SCF abnormal end - no wf written in fort.9
+geometry input file fort.34 saved as /Users/brunocamino/Desktop/UCL/crystal/phonons/data/primitive/MnO_prim_af1.gui
+temporary directory /Users/brunocamino/crystal/tmp removed

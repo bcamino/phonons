@@ -1,0 +1,7 @@
+date Sun 16 Oct 2022 15:20:18 CEST
+hostname surfer-172-29-38-121-hotspot.s-bit.nl
+system Darwin surfer-172-29-38-121-hotspot.s-bit.nl 21.6.0 Darwin Kernel Version 21.6.0: Mon Aug 22 20:20:05 PDT 2022; root:xnu-8020.140.49~2/RELEASE_ARM64_T8101 arm64
+user brunocamino
+output data in /Users/brunocamino/Desktop/UCL/crystal/phonons/data/supercell_2/supercell_0_0-001..out
+crystal executable in /Users/brunocamino/crystal
+input data in /Users/brunocamino/Desktop/UCL/crystal/phonons/data/supercell_2/supercell_0_0-001..d12 not found or empty

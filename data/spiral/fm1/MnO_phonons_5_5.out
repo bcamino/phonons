@@ -1,0 +1,283 @@
+date Thu 11 May 2023 15:31:02 BST
+hostname MacBook-Pro-8.local
+system Darwin MacBook-Pro-8.local 21.6.0 Darwin Kernel Version 21.6.0: Mon Aug 22 20:20:05 PDT 2022; root:xnu-8020.140.49~2/RELEASE_ARM64_T8101 arm64
+user brunocamino
+output data in /Users/brunocamino/Desktop/UCL/crystal/phonons/data/spiral/fm1/MnO_phonons_5_5.out
+crystal executable in /Users/brunocamino/crystal
+input data in /Users/brunocamino/Desktop/UCL/crystal/phonons/data/spiral/fm1/MnO_phonons_5_5.d12
+temporary directory /Users/brunocamino/crystal/tmp
+external geometry input from /Users/brunocamino/Desktop/UCL/crystal/phonons/data/spiral/fm1/MnO_phonons_5_5.gui
+external geometry input saved in /Users/brunocamino/Desktop/UCL/crystal/phonons/data/spiral/fm1/MnO_phonons_5_5_inp.gui
+MnO
+EXTERNAL
+SCELPHONO
+2 0 0
+0 2 0
+0 0 2
+FREQCALC
+DISPERSI
+INTERPHESS
+10 10 10
+0
+WANG
+4.01952 0.00000  0.00000
+0.00000 4.127412 0.00000
+0.00000 0.00000 4.127412
+ENDFREQ
+END
+25 12
+0 0 8 2.0 1.0
+277185.00153     .22838385133E-03 
+41550.769890     .17707650375E-02 
+9455.9700152     .92077209994E-02 
+2676.5206482     .37415971825E-01 
+871.46687530     .12164861426
+312.98306420     .28824392499  
+121.44454051     .41041600847
+47.922598829     .21372375145
+0 0 4 2.0 1.0 
+303.66723163    -.24589926140E-01
+93.881403187    -.11602608038
+14.879421214     .55112059677 
+6.2865200745     .53707560756
+0 0 2 2.0 1.0 
+9.4858591337    -.22889262695 
+1.5698706158     .71196169587
+0 0 1 2.0 1.0 
+0.65903213608   1.0000000000
+0 0 1 0.0 1.0 
+0.30            1.0
+0 1 1 0.0 1.0 
+0.13            1.0 1.0
+0 2 6 6.0 1.0 
+1444.7978182    .23994136455E-02
+342.06551197    .19369286864E-01
+109.58400891    .90236108988E-01
+40.747988173    .25745467851
+16.188626566    .41272351958 
+6.5484505964    .24087700007
+0 2 3 6.0 1.0 
+25.357086437   -.28707174058E-01
+3.4830168782    .55208100712
+1.3858800906    .97226901379
+0 2 1 0.0 1.0 
+0.52555094893   1.0000000000
+0 3 4 5.0 1.0 
+56.563189119    .11543245294532D-01
+16.278734711    .70299845987196D-01
+5.6964273914    .22450770821295
+2.1411147942    .39703065434226
+0 3 1 0.0 1.0 
+0.78291801938   1.0
+0 3 1 0.0 1.0 
+0.25952311214   1.0
+8 9
+0 0 6 2.0 1.0
+  27032.382631    0.21726302465E-03 
+  4052.3871392    0.16838662199E-02
+  922.32722710    0.87395616265E-02
+  261.24070989    0.35239968808E-01
+  85.354641351    0.11153519115
+  31.035035245    0.25588953961
+0 0 2 2.0 1.0
+  12.271113873    0.39768730901
+  4.9159842006    0.24627849430
+0 0 1 0.0 1.0
+  0.90086482370    1.0000000000
+0 1 1 0.0 1.0
+  0.25000000000    1.0 1.0
+0 2 4 4.0 1.0
+  75.300554155     0.60685103418E-02
+  17.743733858     0.41912575824E-01
+  5.5355828651     0.16153841088
+  2.0685535103     0.35706951311
+0 2 1 0.0 1.0
+  0.78238772422    1.0000000000
+0 3 1 0.0 1.0
+  2.31400000       1.0000000000
+0 3 1 0.0 1.0
+  0.64500000       1.0000000000
+0 4 1 0.0 1.0
+  1.42800000       1.0000000000
+99 0
+ENDBS
+DFT
+SPIN
+EXCHANGE
+PBE
+CORRELAT
+PBE
+HYBRID
+25
+TOLLDENS
+9
+ENDDFT
+TOLINTEG
+9 9 9 18 36
+SCFDIR
+GUESSP
+SHRINK
+5 10
+FMIXING
+95
+ATOMSPIN
+500
+TOLDEE
+9
+GRADCAL
+SPINLOCK
+160 5
+ATOMSPIN
+32
+1 +1 2 +1 3 +1 8 +1 9 +1 10 +1 11 +1 12 +1 13 +1 14 +1 15 +1 16 +1 17 +1 18 +1 19 +1 20 +1 21 +1 22 +1 23 +1 24 +1 25 +1 26 +1 27 +1 28 +1 29 +1 30 +1 31 +1 32 +1 40 +1 48 +1 56 +1
+ENDSCF
+
+         
+ *******************************************************************************
+ *                                                                             *
+ *                               CRYSTAL17                                     *
+ *                      public : 1.0.1 - Feb 1st, 2017                         *
+ *                       HTTP://WWW.CRYSTAL.UNITO.IT                           *
+ *                                                                             *
+ *                              MAIN AUTHORS                                   *
+ *                                                                             *
+ *  R. DOVESI(1,11), V.R. SAUNDERS(2), C. ROETTI(1,11), R. ORLANDO(1,11),      *
+ *  C.M. ZICOVICH-WILSON(1,3), F. PASCALE(4), B. CIVALLERI(1,11),              *
+ *  K. DOLL(5), N.M. HARRISON(2,6), I.J. BUSH(7), Ph. D'ARCO(8),               *
+ *  M. LLUNELL(9), M. CAUSA'(10), Y. NOEL(8), L. MASCHIO(1,11), A. ERBA(1,11)  *
+ *  M. RE'RAT(14), S. CASASSA(1,11)                                            *
+ *                                                                             *
+ *        CONTRIBUTIONS TO THE CODE HAVE ALSO BEEN GIVEN BY                    *
+ *                                                                             *
+ *  M. FERRABONE(1,11), M. DE LA PIERRE(1,11), M. FERRERO(1,11),               *
+ *  J. BAIMA(1,11), E. ALBANESE(1,11), M.F. PEINTINGER(12), R. BAST(13),       *
+ *  B. KIRTMAN(15), V. LACIVITA(1,11), R. DEMICHELIS(1,16)                     *
+ *  G. BRANDEBURG(17), S. SALUSTRO(1,11), G. SANSONE(1,11)                     *
+ *  M.T. RUGGIERO(18)                                                          *
+ *                                                                             *
+ * (1) THEORETICAL CHEMISTRY GROUP - UNIVERSITA' DI TORINO - TORINO (ITALY)    *
+
+ * (2) COMPUTATIONAL SCIENCE & ENGINEERING DEPARTMENT - STFC DARESBURY (UK)    *
+ * (3) UNIVERSIDAD AUTONOMA DEL ESTADO DE MORELOS - CUERNAVACA (MEXICO)        *
+ * (4) UNIVERSITE' DE LORRAINE - NANCY (FRANCE)                                *
+ * (5) UNIVERSITAET STUTTGART- STUTTGART (GERMANY)                             *
+ * (6) IMPERIAL COLLEGE - LONDON (UK)                                          *
+ * (7) OXFORD E-RESEARCH CENTRE - OXFORD (UK)                                  *
+ * (8) UPMC - SORBONNE UNIVERSITES - PARIS (FRANCE)                            *
+ * (9) UNIVERSIDAD DE BARCELONA - BARCELONA (SPAIN)                            *
+ *(10) UNIVERSITA' DI NAPOLI "FEDERICO II" - NAPOLI (ITALY)                    *
+ *(11) NIS - NANOSTRUCTURED INTERFACES AND SURFACES - TORINO (ITALY)           *
+ *(12) MPI FUER CHEMISCHE ENERGIEKONVERSION - MUELHEIM AN DER RUHR (GERMANY)   *
+ *(13) UNIVERSITY OF TROMSO - TROMSO (NORWAY)                                  *
+ *(14) UNIVERSITE' DE PAU ET DES PAYS DE L'ADOUR - PAU (FRANCE)                *
+ *(15) UNIVERSITY OF CALIFORNIA SANTA BARBARA - SANTA BARBARA (USA)            *
+ *(16) CURTIN UNIVERSITY - PERTH (AUSTRALIA)                                   *
+ *(17) UNIVERSITY COLLEGE LONDON - LONDON (UK)                                 *
+ *(18) CAMBRIDGE UNIVERSITY - CAMBRIDGE (UK)                                   *
+ *                                                                             *
+ *******************************************************************************
+ EEEEEEEEEE STARTING  DATE 11 05 2023 TIME 15:31:02.4
+ MnO                                                                             
+
+ GEOMETRY INPUT FROM EXTERNAL FILE (FORTRAN UNIT 34)
+ 3D - CRYSTAL 
+
+ *******************************************************************************
+ LATTICE PARAMETERS  (ANGSTROMS AND DEGREES) - PRIMITIVE CELL
+       A          B          C        ALPHA      BETA     GAMMA        VOLUME
+    4.50999    4.50999    4.50999    91.41296  89.95877  89.95877     91.705186
+ INFORMATION **** CHKGRP **** SPGR WITH NO INVERSION
+
+ NUMBER OF IRREDUCIBLE ATOMS IN THE CELL:    6
+
+ CARTESIAN COORDINATES (ANGSTROM) - IRREDUCIBLE ATOMS AND SYMMETRY RELATED
+
+ AT.IRR.  AT  AT.N.          X                   Y                   Z
+     1     1    25    0.000000000000E+00  0.000000000000E+00  0.000000000000E+00
+     2     2    25   -9.321568633880E-01 -1.614060960902E+00 -2.586226907037E+00
+     2     3    25   -1.775199967205E+00 -2.410435546194E-04  2.555160707533E+00
+     2     4    25   -9.317393637031E-01  1.614302004457E+00 -2.586226907037E+00
+     2     5    25   -9.317393637031E-01 -1.614302004457E+00 -2.586226907037E+00
+     2     6    25   -1.775199967205E+00  2.410435546194E-04  2.555160707533E+00
+     2     7    25   -9.321568633880E-01  1.614060960902E+00 -2.586226907037E+00
+     8     8    25    1.819548097153E+00  0.000000000000E+00 -2.570693807288E+00
+     8     9    25   -9.097740485765E-01  1.575774875541E+00 -2.570693807288E+00
+     8    10    25   -9.097740485765E-01 -1.575774875541E+00 -2.570693807288E+00
+    11    11     8   -1.841930911965E+00  0.000000000000E+00 -1.300880003392E+00
+    11    12     8    9.209654559825E-01 -1.595158961777E+00 -1.300880003392E+00
+    11    13     8    9.209654559825E-01  1.595158961777E+00 -1.300880003392E+00
+    14    14     8    9.097740485760E-01 -1.614060960902E+00 -1.285346903644E+00
+    14    15     8    9.429307711091E-01  1.594917918221E+00 -1.285346903644E+00
+    14    16     8   -1.852704819685E+00  1.914304268077E-02 -1.285346903644E+00
+    14    17     8   -1.852704819685E+00 -1.914304268077E-02 -1.285346903644E+00
+    14    18     8    9.429307711091E-01 -1.594917918221E+00 -1.285346903644E+00
+    14    19     8    9.097740485760E-01  1.614060960902E+00 -1.285346903644E+00
+    20    20     8   -2.238281481200E-02  0.000000000000E+00 -3.871573810680E+00
+    20    21     8   -3.627904786890E+00 -1.938408623538E-02  1.269813803890E+00
+    20    22     8   -3.627904786890E+00  1.938408623538E-02  1.269813803890E+00
+
+ SPACE  GROUP  N.                     :   71
+ NUMBER OF SYMMETRY OPERATORS         :    6
+ *******************************************************************************
+ LATTICE PARAMETERS (ANGSTROMS AND DEGREES) - BOHR = 0.5291772083 ANGSTROM
+ PRIMITIVE CELL - CENTRING CODE 1/0 VOLUME=    91.705186 - DENSITY 13.423 g/cm^3
+         A              B              C           ALPHA      BETA       GAMMA 
+     4.50998815     4.50998815     4.50998815    91.412958  89.958773  89.958773
+ *******************************************************************************
+ ATOMS IN THE ASYMMETRIC UNIT    6 - ATOMS IN THE UNIT CELL:   22
+     ATOM                 X/A                 Y/B                 Z/C    
+ *******************************************************************************
+      1 T  25 MN    0.000000000000E+00  0.000000000000E+00  0.000000000000E+00
+      2 T  25 MN   -4.999999999999E-01 -4.999999999993E-01  7.286393710615E-13
+      3 F  25 MN    6.036439558222E-03 -4.938867825975E-01 -4.939614525017E-01
+      4 F  25 MN   -4.999244398989E-01  9.016617307234E-07 -4.999244284341E-01
+      5 F  25 MN   -4.999244398989E-01 -4.999244284341E-01  9.016617307234E-07
+      6 F  25 MN    6.036439558222E-03 -4.939614525017E-01 -4.938867825975E-01
+      7 F  25 MN   -4.999999999999E-01  7.286393710615E-13 -4.999999999993E-01
+      8 T  25 MN    5.205835762467E-13 -4.999999999992E-01 -4.999999999992E-01
+      9 F  25 MN   -4.939593120508E-01  5.965742495413E-03  4.941055692157E-01
+     10 F  25 MN   -4.939593120508E-01  4.941055692157E-01  5.965742495413E-03
+     11 T   8 O     4.999999999999E-01  1.297018048518E-13  1.297018048518E-13
+     12 F   8 O     3.565585526424E-05 -4.998884767636E-01  5.966939971985E-03
+     13 F   8 O     3.565585526424E-05  5.966939971985E-03 -4.998884767636E-01
+     14 T   8 O     1.698086116164E-13 -4.999999999996E-01  3.776978729775E-13
+     15 F   8 O     6.000783703177E-03  6.001694166071E-03 -4.999283924739E-01
+     16 F   8 O    -4.999600957539E-01 -5.966038310473E-03 -3.595167047751E-05
+     17 F   8 O    -4.999600957539E-01 -3.595167047751E-05 -5.966038310473E-03
+     18 F   8 O     6.000783703177E-03 -4.999283924739E-01  6.001694166071E-03
+     19 F   8 O     1.698086116164E-13  3.776978729775E-13 -4.999999999996E-01
+     20 T   8 O    -4.999999999996E-01 -4.999999999990E-01 -4.999999999990E-01
+     21 F   8 O    -4.939236561956E-01 -4.939227342681E-01 -4.999274908123E-01
+     22 F   8 O    -4.939236561956E-01 -4.999274908123E-01 -4.939227342681E-01
+
+ T = ATOM BELONGING TO THE ASYMMETRIC UNIT
+ *******************************************************************************
+ * GEOMETRY EDITING - INPUT COORDINATES ARE GIVEN IN ANGSTROM         
+ *******************************************************************************
+
+ GEOMETRY NOW FULLY CONSISTENT WITH THE GROUP
+
+ NO SYMMOPS WITH FINITE TRANSLATIONAL COMPONENT
+
+ GCALCO - MAX INDICES DIRECT LATTICE VECTOR    14    14    14
+ NO.OF VECTORS CREATED 6999 STARS 1698 RMAX    53.46462 BOHR
+
+ *******************************************************************************
+ * SUPERCELL OPTION
+ *******************************************************************************
+
+
+        EXPANSION MATRIX OF PRIMITIVE CELL
+ E1     2.000     0.000     0.000
+ E2     0.000     2.000     0.000
+ E3     0.000     0.000     2.000
+ ERROR **** GEXPAD **** DENSITY OF SUPERCELL LESS THAN THAT OF ORIGINAL CELL
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT ERR         TELAPSE        2.02 TCPU        0.01
+Thu 11 May 2023 15:31:04 BST
+Contents of temporary directory:
+total 16
+-rw-r--r--  1 brunocamino  admin  2060 11 May 15:31 fort.34
+-rw-r--r--  1 brunocamino  admin   154 11 May 15:31 fort.7
+SCF abnormal end - no wf written in fort.9
+geometry input file fort.34 saved as /Users/brunocamino/Desktop/UCL/crystal/phonons/data/spiral/fm1/MnO_phonons_5_5.gui
+temporary directory /Users/brunocamino/crystal/tmp removed
